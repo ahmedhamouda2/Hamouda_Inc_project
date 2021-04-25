@@ -1,0 +1,19 @@
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .cog-check,
+#scroll-top:hover{background-color:#E41B17}
+.dropdown-menu .divider{background:#871818}
+.navbar-inverse .navbar-brand span ,
+.about h1 span,
+.testimonials span,
+.footer a,
+.footer a:hover,
+.footer h3,
+.footer .copy-right span{color:#E41B17}
+.dropdown-menu{border-top:3px solid #E41B17;}
+.option-box .color-option,
+.testimonials .carousel-indicators li.active{border:3px solid #E41B17}

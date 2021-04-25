@@ -1,0 +1,41 @@
+/**** start default color ****/
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.carousel-indicators .active,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .cog-check,
+#scroll-top:hover
+
+{
+    background-color:#0895d1
+}
+
+.dropdown-menu .divider {background: #2f5a99}
+
+.navbar-inverse .navbar-brand span ,
+.about h1 span,
+.testimonials span,
+.footer a,
+.footer a:hover,
+.footer h3,
+.footer .copy-right span
+{
+    color:#0895d1 
+}
+.dropdown-menu
+{
+    border-top: 3px solid #0895d1;
+}
+
+.option-box .color-option,
+.testimonials .carousel-indicators li.active
+{
+    border: 3px solid #0895d1;
+}
+
+
+
+/**** End default color ****/
