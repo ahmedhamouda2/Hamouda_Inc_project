@@ -1,0 +1,133 @@
+body{padding-top:70px;overflow:hidden;}
+.navbar{min-height:70px}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{background:#E41B17}
+.navbar-inverse .navbar-nav > li > a{color:#BBB;padding-top:25px;padding-bottom:25px;font-size:16px}
+.navbar-inverse .navbar-brand{color:#BBB;font-size:30px;line-height:40px}
+.navbar-inverse .navbar-brand span{color:#E41B17}
+.navbar-toggle{margin-top:18px}
+.dropdown-menu{background:#333;border-top:3px solid #E41B17;min-width:200px}
+.navbar-right .dropdown-menu{left:0;right:auto}
+.dropdown-menu > li > a{color:#FFF;padding:7px 20px;transition:padding 0.5s ease;}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus{color:#fff;padding-left:25px}
+.dropdown-menu .divider{background:#871818}
+.carousel-caption{bottom:100px;background:rgba(22, 21, 21, 0.6);padding-left:30px;padding-right:30px;padding-top:20px;padding-bottom:40px}
+.carousel-indicators li{height:15px;width:15px;border:1px solid #eee}
+.carousel-indicators .active{height:17px;width:17Px}
+.carousel-indicators{bottom:50px;}
+.carousel-caption .btn{margin-top:15px}
+.option-box{position:fixed;top:110px;right:10px;z-index:9999}
+.option-box i{font-size:50px}
+.option-box .color-option{float:left;background:#333;color:#FFF;padding:5px;width:120px;display:none}
+.option-box .color-option ul li{width:20px;height:20px;background:#F00;display:inline-block;margin-right:3px;cursor:pointer}
+.option-box .cog-check{padding:5px;color:#fff;cursor:pointer}
+.about{padding-top:45px;padding-bottom:50px}
+.about .lead{color:#888;font-size:25px;margin-top:15px;margin-bottom:60px}
+.about h1{font-weight:bold}
+.features{background:#EEE;overflow:hidden}
+.features .feat{margin-bottom:30px}
+.features .feat p{line-height:2em}
+.features .feat span.glyphicon{font-size:30px;margin-bottom:10px}
+.testimonials .lead{line-height:2em;margin-bottom:10px}
+.testimonials span{font-size:18px;font-weight:bold;}
+.testimonials .carousel-inner{min-height:160px}
+.testimonials .carousel-indicators{position:static;width:100%;margin-left:auto;padding-top:20px}
+.testimonials .carousel-indicators li{text-indent:0;width:80px;height:80px;opacity:0.5;border:3px solid #fff;border-radius:50%;overflow:hidden;transition:all 0.5s ease;margin:5px }
+.testimonials .carousel-indicators li.active{width:80px;height:80px;opacity:1;background:none;}
+.testimonials .carousel-indicators li img{max-width:100%}
+.price-table{background:#EEE;overflow:hidden}
+.price-table .price-box{background:#fff;padding:10px;border:2px solid #ddd;margin-bottom:15px}
+.price-table .price-box h2{margin:5px 0 15px}
+.price-table .price-box h2.text-purple{color:#8e44ad}
+.price-table .price-box p{font-size:35px;font-weight:bold;color:#666;width:100px;height:100px;border:2px solid #fff;border-radius:50%;background:#F3F3F3;line-height:100px;transition-duration:0.7s}
+.price-table .price-box:hover p{transform:scale(1.1,1.1) rotate(360deg);border:2px solid #DFDFDF;}
+.price-table .price-box ul{line-height:250%;font-size:18px;}
+.price-table .price-box .buttons-effect {cursor:pointer;display:inline-block;text-align:center;margin-left:10px;margin-top:10px;width:140px;padding:10px;
+font-weight: bold;color: #fff;border: none;border-radius: 5px;position: relative;overflow: hidden}
+.price-table .price-box .buttons-effect span:first-child {position:absolute;left:0;top:0;display:block;width:0;height:100%;z-index:1}
+.price-table .price-box .buttons-effect span:last-child {position:relative;z-index: 2}
+.price-table .price-box .buttons-effect.from-blue {background-color:#2980b9 }
+.price-table .price-box .buttons-effect.from-blue span:first-child {background-color:#3498db}
+.price-table .price-box .buttons-effect.from-green {background-color:#27ae60 }
+.price-table .price-box .buttons-effect.from-green span:first-child{background-color:#2ecc71}
+.price-table .price-box .buttons-effect.from-purple {background-color:#8e44ad }
+.price-table .price-box .buttons-effect.from-purple span:first-child {background-color:#9b59b6}
+.price-table .price-box .buttons-effect.from-red {background-color:#c0392b}
+.price-table .price-box .buttons-effect.from-red span:first-child {background-color:#e74c3c}
+.our-team{background:url('../images/background-image/team.webp') no-repeat center center fixed;background-size:cover;min-height:600px}
+.our-team .team{background:rgba(2,2,2,0.75);color:#FFF;min-height:600px;}
+.our-team .team img{border:2px solid #ffffff}
+.our-team .person{margin-bottom:40px}
+.our-team .person i{color:#888;margin-left:2px;transition:all 0.54s ease-in-out}
+.our-team .person i:hover{color:#fff;transform:scale(1.2)}
+.subscribe{background:#EEE;overflow:hidden}
+.subscribe .h1{color:#666;letter-spacing:2px;margin-bottom:20px}
+.subscribe p{margin-bottom:30px;}
+.subscribe .form-control{border-radius:0;margin-right:-5px;width:300px}
+.subscribe button{border-radius:0}
+.statistics{background:url('../images/background-image/stats.webp') no-repeat center center fixed;background-size:cover;min-height:300px}
+.statistics .data{background:rgba(2,2,2,0.6);color:#B6B5B5;min-height:300px;}
+.statistics .stats{transition:all 0.5s ease-in-out;margin-bottom:30px}
+.statistics .stats:hover{color:#fff}
+.statistics p{font-size:60px;font-weight:600;margin-bottom:0}
+.statistics span{font-size:18px;}
+.our-skills h3{font-weight:bold;margin-top:0}
+.our-skills .progress{height:36px}
+.our-skills .progress .progress-bar{line-height:36px;font-size:15px;font-weight:bold;text-align:left;text-indent:10px}
+.contact-us{background:url('../images/background-image/contact.webp') no-repeat center center fixed;background-size:cover;min-height:300px}
+.contact-us .fields{background:rgba(2,2,2,0.8);min-height:300px;color:#DDD;}
+.contact-us p{margin-bottom:40px}
+.contact-us textarea{height:108px}
+.our-clients{background:#EEE;padding-top:20px;padding-bottom:20px;}
+.our-clients img{opacity:0.4;margin-top:25px;margin-bottom:25px;transition:all 0.4s ease-in-out}
+.our-clients img:hover{opacity:1}
+.footer{background:#333;color:#AAA;padding-top:10px;}
+.footer a{color:#AAA}
+.footer .a{color:#AAA;text-decoration: none}
+.footer a:hover{color:#FFF}
+.footer h3{letter-spacing:1px;margin:30px 0 20px}
+.footer .three-columns{overflow:hidden}
+.footer .three-columns li{width:33.3333%;float:left;padding:12px 0}
+.footer .social-list{overflow:hidden;margin:20px 0 10px}
+.footer .social-list li{float:left;margin-right:3px;opacity:0.6;transition:all 0.5s ease-in-out}
+.footer .social-list li:hover{opacity:1}
+.footer .social-list li img{max-height:48px;max-width:48px}
+.footer .img-thumbnail{background:rgba(0,0,0,0.2);border:1px solid #444;margin-bottom:5px}
+.footer .copy-right{background:#000;color:#AAA;padding:15px 0;margin-top:30px;font-size:18px}
+.footer .copy-right span{color:#E41B17}
+.loading-overlay{background:#222;color:#E41B17;position:fixed;left:0;top:0;width:100%;height:100%;z-index:99999}
+.loading-overlay .loader{margin:500px auto;font-size:18px;width:25px;height:25px;border-radius:50%;position:relative;text-indent:-9999em;animation:load5 1.1s infinite ease;transform:translateZ(0);}
+@keyframes load5{0%,
+100%{box-shadow:0em -2.6em 0em 0em #E41B17, 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2), 2.5em 0em 0 0em rgba(228, 27, 23, 0.2), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.2), 0em 2.5em 0 0em rgba(228, 27, 23, 0.2), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.2), -2.6em 0em 0 0em rgba(228, 27, 23, 0.5), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.7);}
+12.5%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.7), 1.8em -1.8em 0 0em #E41B17, 2.5em 0em 0 0em rgba(228, 27, 23, 0.2), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.2), 0em 2.5em 0 0em rgba(228, 27, 23, 0.2), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.2), -2.6em 0em 0 0em rgba(228, 27, 23, 0.2), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.5);}
+25%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.5), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.7), 2.5em 0em 0 0em #E41B17, 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.2), 0em 2.5em 0 0em rgba(228, 27, 23, 0.2), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.2), -2.6em 0em 0 0em rgba(228, 27, 23, 0.2), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2);}
+37.5%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.2), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.5), 2.5em 0em 0 0em rgba(228, 27, 23, 0.7), 1.75em 1.75em 0 0em #E41B17, 0em 2.5em 0 0em rgba(228, 27, 23, 0.2), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.2), -2.6em 0em 0 0em rgba(228, 27, 23, 0.2), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2);}
+50%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.2), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2), 2.5em 0em 0 0em rgba(228, 27, 23, 0.5), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.7), 0em 2.5em 0 0em #E41B17, -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.2), -2.6em 0em 0 0em rgba(228, 27, 23, 0.2), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2);}
+62.5%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.2), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2), 2.5em 0em 0 0em rgba(228, 27, 23, 0.2), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.5), 0em 2.5em 0 0em rgba(228, 27, 23, 0.7), -1.8em 1.8em 0 0em #E41B17, -2.6em 0em 0 0em rgba(228, 27, 23, 0.2), -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2);}
+75%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.2), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2), 2.5em 0em 0 0em rgba(228, 27, 23, 0.2), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.2), 0em 2.5em 0 0em rgba(228, 27, 23, 0.5), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.7), -2.6em 0em 0 0em #E41B17, -1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2);}
+87.5%{box-shadow:0em -2.6em 0em 0em rgba(228, 27, 23, 0.2), 1.8em -1.8em 0 0em rgba(228, 27, 23, 0.2), 2.5em 0em 0 0em rgba(228, 27, 23, 0.2), 1.75em 1.75em 0 0em rgba(228, 27, 23, 0.2), 0em 2.5em 0 0em rgba(228, 27, 23, 0.2), -1.8em 1.8em 0 0em rgba(228, 27, 23, 0.5), -2.6em 0em 0 0em rgba(228, 27, 23, 0.7), -1.8em -1.8em 0 0em #E41B17;}
+}
+#scroll-top{width:50px;height:40px;text-align:center;color:#DDD;background:#272727;position:fixed;right:15px;bottom:10px;z-index:9999;display:none;cursor:pointer}
+.features .h1 ,
+.testimonials .h1,
+.price-table .h1,
+.our-team .h1,
+.statistics .h1,
+.our-skills .h1{margin-bottom:50px}
+.statistics .data,
+.our-team .team ,
+.contact-us .fields,
+.our-skills,
+.price-table,
+.testimonials,
+.subscribe,
+.features{padding-top:40px;padding-bottom:60px}
+
+/*smart mobile media*/
+@media (max-width:767px){.navbar-inverse .navbar-nav > li > a{padding-top:10px;padding-bottom:10px}
+.subscribe .form-control{margin:20px auto;width:400px}
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse{max-height:none}
+}
