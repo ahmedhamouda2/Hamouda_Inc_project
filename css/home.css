@@ -20,9 +20,9 @@ body{padding-top:70px;overflow:hidden;}
 .carousel-caption .btn{margin-top:15px}
 .option-box{position:fixed;top:110px;right:10px;z-index:9999}
 .option-box i{font-size:50px}
-.option-box .color-option{float:left;background:#333;color:#FFF;padding:5px;width:120px;display:none}
+.option-box .color-option{float:left;background:#333;color:#FFF;padding:5px;width:120px;display:none;}
 .option-box .color-option ul li{width:20px;height:20px;background:#F00;display:inline-block;margin-right:3px;cursor:pointer}
-.option-box .cog-check{padding:5px;color:#fff;cursor:pointer}
+.option-box .cog-check{padding:5px;color:#fff;cursor:pointer;border-radius: 10px;}
 .about{padding-top:45px;padding-bottom:50px}
 .about .lead{color:#888;font-size:25px;margin-top:15px;margin-bottom:60px}
 .about h1{font-weight:bold}
